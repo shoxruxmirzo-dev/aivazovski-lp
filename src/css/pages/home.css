@@ -1,0 +1,24 @@
+.hero {
+  background-color: var(--muted);
+  color: var(--muted-foreground);
+  text-align: center;
+  padding: 6rem 2rem;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  margin-bottom: 0.5rem;
+}
+
+.features {
+  text-align: center;
+}
+
+.features h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}

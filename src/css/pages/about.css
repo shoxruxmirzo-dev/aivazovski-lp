@@ -1,0 +1,11 @@
+.about {
+  background-color: var(--background);
+  color: var(--foreground);
+  text-align: center;
+  padding: 6rem 2rem;
+}
+
+.about h1 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}

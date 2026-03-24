@@ -1,0 +1,11 @@
+/* Base styles */
+@import "./base/vars.css";
+@import "./base/base.css";
+@import "./base/global.css";
+
+/* All styles */
+@import url('layout.css');
+@import url('components.css');
+@import url('pages/home.css');
+@import url('pages/about.css');
+@import url('pages/contact.css');
