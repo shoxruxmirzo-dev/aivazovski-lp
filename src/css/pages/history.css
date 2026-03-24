@@ -1,0 +1,35 @@
+.history-section {
+  margin: 64px 0 70px 0;
+  text-align: center;
+}
+
+.history-title {
+  font-size: 34px;
+  font-weight: 700;
+  margin-bottom: 60px;
+}
+
+.history-photo {
+  width: 100%;
+  max-width: 950px;
+  height: 655px;
+  object-fit: cover;
+}
+
+.history-description {
+  margin-top: 30px;
+}
+
+@media (max-width: 480px) {
+  .history-section {
+    margin: 50px 0 70px 0;
+  }
+
+  .history-photo {
+    height: 480px;
+  }
+
+  .history-description {
+    font-size: 14px;
+  }
+}
