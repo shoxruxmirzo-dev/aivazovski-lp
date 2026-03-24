@@ -1,24 +1,37 @@
-.hero {
-  background-color: var(--muted);
-  color: var(--muted-foreground);
-  text-align: center;
-  padding: 6rem 2rem;
-}
-
-.hero h1 {
-  font-size: 3rem;
-  margin-bottom: 1rem;
-}
-
-.hero p {
-  margin-bottom: 0.5rem;
-}
-
-.features {
+.home {
   text-align: center;
 }
 
-.features h2 {
-  font-size: 2rem;
-  margin-bottom: 1rem;
+.home-title {
+  font-size: 45px;
+  font-weight: 700;
+  margin: 45px 0 25px 0;
+}
+
+.home-description {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0px 0 35px 0;
+}
+
+.home-img {
+  width: 100%;
+  height: 535px;
+  object-fit: cover;
+}
+
+@media (max-width: 480px) {
+  .home {
+    text-align: left;
+  }
+
+  .home-title {
+    font-size: 32px;
+    max-width: 250px;
+  }
+
+  .home-description {
+    font-size: 14px;
+    margin: 0px 0 28px 0;
+  }
 }
