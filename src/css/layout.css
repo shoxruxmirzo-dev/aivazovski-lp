@@ -51,3 +51,74 @@
     display: none;
   }
 }
+
+.contacts {
+  margin: 55px 20px 62px 0;
+  text-align: center;
+}
+
+.contacts-title {
+  font-size: 34px;
+  font-weight: 700;
+}
+
+.contacts-button {
+  margin: 75px 0 38px 0;
+
+  width: 210px;
+  height: 42px;
+  background-color: var(--primary);
+
+  border: none;
+  border-radius: 20px;
+
+  &:hover {
+    opacity: 0.7;
+  }
+}
+
+.button-link {
+  font-size: 24px;
+  color: var(--primary-foreground);
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin: 0 auto;
+}
+
+.social-icon {
+  width: 65px;
+  height: 65px;
+
+  &:hover path {
+    fill: lightcoral;
+  }
+}
+
+.contacts-info {
+  width: 260px;
+  margin: 35px auto 0 auto;
+  color: var(--muted-foreground);
+}
+
+@media (max-width: 480px) {
+
+  .socials {
+    gap: 20px;
+
+  }
+
+  .social-icon {
+    width: 55px;
+    height: 55px;
+  }
+
+  .contacts-info {
+    font-size: 14px;
+
+  }
+}
